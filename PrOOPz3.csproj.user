@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="src\features\customers\presentation\customers\CustomersControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="src\features\customers\presentation\customer_picker\CustomerPickerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="src\features\orders\presentation\add_order\AddOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="src\features\orders\presentation\orders\OrdersControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="src\features\products\presentation\ProductsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="src\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
