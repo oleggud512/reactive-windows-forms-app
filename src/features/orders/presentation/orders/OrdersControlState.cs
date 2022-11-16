@@ -16,7 +16,6 @@ namespace PrOOPz3.src.features.orders.presentation.orders
 
         public List<Order> Orders { get; }
 
-        // TODO: он что, по сути, делает то же самое что и конструктор? Это, получается, лишняя работа... Overengeneering, так сказать... Хотя выглядит красиво и логично. 
         public OrdersControlState CopyWith(List<Order>? orders = null)
         {
             return new OrdersControlState(
